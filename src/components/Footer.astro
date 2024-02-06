@@ -8,9 +8,12 @@ const footer = await getEntry('settings','footer');
 <footer class="block relative bg-zinc-200/60 w-full text-center py-32">
   <div class="mx-auto px-8 md:max-w-7xl">
     <div class="flex justify-center gap-8 mb-8">
-      {footer.data.socials.map(social=><a href={social.link} class="no-underline relative inline-block" title={social.name} aria-label={social.name} rel="noopener">
+      <a href="https://www.instagram.com/laradevito.art"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.instagram.com/laradevito.art"><i class="fa-regular fa-envelope"></i></a>
+      <a href="https://www.instagram.com/laradevito.art"><i class="fa-brands fa-behance"></i></a>
+      <!-- {footer.data.socials.map(social=><a href={social.link} class="no-underline relative inline-block" title={social.name} aria-label={social.name} rel="noopener">
         <span set:html={social.name}></span>
-      </a>)}
+      </a>)} -->
     </div>
     <p class="m-0 opacity-60">
       <span>&copy; Copyright&nbsp;</span>

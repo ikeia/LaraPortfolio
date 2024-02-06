@@ -9,7 +9,7 @@ const allProjects = await getCollection('projects');
 const projects = allProjects.sort((a,b)=>{return b.data.date - a.data.date});
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Lara Devito">
   <script>
     const masonry = () =>{
       const portfolio = document.querySelector('.portfolio')
@@ -114,4 +114,7 @@ const projects = allProjects.sort((a,b)=>{return b.data.date - a.data.date});
       </div>
     </div>
   </div>
+
+
+ 
 </Layout>
