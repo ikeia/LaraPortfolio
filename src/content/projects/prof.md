@@ -1,6 +1,6 @@
 ---
 title: my professor— (2017)
-image: assets/prof.jpg
+image: assets/Prof.jpg
 date: 2023-09-28
 tag:
   - Portrait
